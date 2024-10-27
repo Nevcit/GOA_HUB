@@ -1,0 +1,57 @@
+if game.PlaceId == 14787369036 then
+for _, gui in ipairs(game:GetService("CoreGui"):GetChildren()) do
+    if gui.Name == "ScreenGui" then
+      gui:Destroy()
+    end
+end
+
+local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nevcit/Pressure/main/Fluent"))()
+
+local Window = Fluent:CreateWindow({
+    Title = "GOA Hub",
+    SubTitle = "by Nevcit",
+    TabWidth = 80,
+    Size = UDim2.fromOffset(400, 350),
+    Acrylic = false,
+    Theme = "Darker",
+    MinimizeKey = Enum.KeyCode.LeftControl
+})
+
+local Tabs = {
+    Update = Window:AddTab({ Title = "Main", Icon = "home" })
+}
+
+local Section = Tabs.Update:AddSection("Update")
+Section:AddParagraph({
+    Title = "Change UI"
+})
+Section:AddParagraph({
+    Title = "Added Book 1 Chapter 1"
+})
+Section:AddParagraph({
+    Title = "Added Book 1 Chapter 2"
+})
+Section:AddParagraph({
+    Title = "Added Book 1 Chapter 3"
+})
+Section:AddParagraph({
+    Title = "Added Book 1 Chapter 4"
+})
+Section:AddParagraph({
+    Title = "Added Book 2 Chapter 1"
+})
+elseif game.PlaceId == 14787381917 then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Nevcit/Weird-Strict-Dad/main/Ch1"))()
+elseif game.PlaceId == 15322497988 then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Nevcit/Weird-Strict-Dad/main/Ch2"))()
+elseif game.PlaceId == 16375066410 then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Nevcit/Weird-Strict-Dad/main/home"))()
+elseif game.PlaceId == 16485242214 then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Nevcit/Weird-Strict-Dad/main/boat"))()
+elseif game.PlaceId == 16554037885 then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Nevcit/Weird-Strict-Dad/main/island"))()
+elseif game.PlaceId == 17619037026 or game.PlaceId == 17680488855 then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Nevcit/Weird-Strict-Dad/main/Ch4"))()
+elseif game.PlaceId == 71718624482170 then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Nevcit/GOA_HUB/refs/heads/main/Weird-Strict-Dad/Book_2_Chapter_1"))()
+end
