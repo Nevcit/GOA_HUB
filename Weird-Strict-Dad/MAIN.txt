@@ -45,11 +45,11 @@ elseif game.PlaceId == 14787381917 then
 elseif game.PlaceId == 15322497988 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/Nevcit/Weird-Strict-Dad/main/Ch2"))()
 elseif game.PlaceId == 16375066410 then
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/Nevcit/Weird-Strict-Dad/main/home"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Nevcit/GOA_HUB/refs/heads/main/Weird-Strict-Dad/Book_1_Chapter_3"))()
 elseif game.PlaceId == 16485242214 then
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/Nevcit/Weird-Strict-Dad/main/boat"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Nevcit/GOA_HUB/refs/heads/main/Weird-Strict-Dad/Book_1_Chapter_3"))()
 elseif game.PlaceId == 16554037885 then
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/Nevcit/Weird-Strict-Dad/main/island"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Nevcit/GOA_HUB/refs/heads/main/Weird-Strict-Dad/Book_1_Chapter_3"))()
 elseif game.PlaceId == 17619037026 or game.PlaceId == 17680488855 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/Nevcit/Weird-Strict-Dad/main/Ch4"))()
 elseif game.PlaceId == 71718624482170 then
