@@ -85,11 +85,7 @@ tb2.MouseButton1Click:Connect(function()
     end
 end)
 
-repeat task.wait()
-  if getgenv().KeyMode == 2 or getgenv().AllowAnyKey == false or getgenv().UseKey == "25ms" then
-    game.Players.LocalPlayer:Kick("Cracking Detected : Please Dont Cracking The Script")
-  end
-until correct and getgenv().Nevcit
+repeat task.wait() until correct and getgenv().Nevcit
 for _, gui in ipairs(game:GetService("CoreGui"):GetChildren()) do  
   if gui.Name == "FLUENT" then 
     gui:Destroy()
