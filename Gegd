@@ -1,3 +1,0 @@
-if game.CoreGui:FindFirstChild("ScreenGui") ~= nil then
-  game.Players.LocalPlayer:Kick("Tampering Detected")
-end
