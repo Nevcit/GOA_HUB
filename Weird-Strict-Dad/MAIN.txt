@@ -43,6 +43,9 @@ Section:AddParagraph({
 Section:AddParagraph({
     Title = "Fixed UI Not Showing"
 })
+Section:AddParagraph({
+    Title = "Improved Find Clue (Book 1 Chapter 2)"
+})
 elseif game.PlaceId == 14787381917 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/Nevcit/GOA_HUB/refs/heads/main/Weird-Strict-Dad/Book_1_Chapter_1"))()
 elseif game.PlaceId == 15322497988 then
