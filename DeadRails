@@ -256,9 +256,7 @@ local function GetUniqueItemNames()
     local itemNames = {}
     local uniqueNames = {}
     local runtime = workspace:FindFirstChild("RuntimeItems")
-    local train = workspace:FindFirstChild("Train")
-    local platform = train:FindFirstChild("Platform")
-    if runtime and train and platform then
+    if runtime then
         for _, item in pairs(workspace.RuntimeItems:GetChildren()) do
             if item:IsA("Model") then
                 local distance = (item.PrimaryPart.Position - workspace.Train.Platform:GetChildren()[4].Position).Magnitude
