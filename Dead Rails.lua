@@ -662,7 +662,7 @@ local function ApplyESPMob(state)
                         local distance1 = (v.PrimaryPart.Position - workspace.Train.PrimaryPart.Position).Magnitude
                         if (distance1 <= 30 or distance <= 30) and v.Humanoid.Health <= 0 and v:FindFirstChild("NevcitESPMob") and AutoRemove then
                             v.PrimaryPart.NevcitESPMob:Destroy()
-                        elseif (distance1 <= 30 or distance <= 30) and not v.PrimaryPart:FindFirstChild("NevcitESPMob") then
+                        elseif (distance1 > 30 or distance > 30) and not v.PrimaryPart:FindFirstChild("NevcitESPMob") then
                             ESP(v, Color3.fromRGB(255, 0, 0), HighlightActive)
                         end
                     end
